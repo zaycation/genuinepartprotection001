@@ -10,9 +10,8 @@ const footer = () => {
       fixed="bottom"
       activeKey="/home"
     >
-      <Nav.Item className="px-5">
-        PartProtection® is a registered trademark with the United States
-        Trademark Office. Copyright © 2021 All Rights Reserved.
+      <Nav.Item className="px-5 text-white">
+        Copyright © 2017-2021 Genuine PartProtection. All Rights Reserved
       </Nav.Item>
     </Navbar>
   );

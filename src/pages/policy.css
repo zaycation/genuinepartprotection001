@@ -1,0 +1,27 @@
+.policy-bg {
+    width: 100%;
+    min-height: 93vh;
+    background: #edf2f6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+.policy-box {
+  font: Source Sans Pro;
+  background: #fff;
+  border-radius: 15px;
+  width: 1000px;
+  min-height: 200px;
+  margin-top: 50px;
+}
+
+.search-btn {
+  font: Source Sans Pro;
+  background: #1665a2;
+  border-radius: 4px;
+  border-color: #1665a2;
+  color: white;
+  width: 250px;
+  height: 60px;
+}

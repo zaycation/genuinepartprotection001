@@ -4,9 +4,11 @@ import { Nav, Navbar, Container, Image } from "react-bootstrap";
 
 import Logo from "../images/gpp-logo.png";
 
+import "./nav.css";
+
 const BootstrapNav = () => {
   return (
-    <Navbar variant="dark" expand="md" fixed="top">
+    <Navbar variant="dark" expand="md" fixed="top" className="nav-container">
       <Container>
         <Navbar.Brand href="/" className="">
           <Image src={Logo} rounded width="180px" />

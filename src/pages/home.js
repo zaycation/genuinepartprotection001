@@ -12,7 +12,7 @@ const home = () => {
         <Col className="my-5" sm={8}>
           <div className="hero-text-div my-5">
             <div className="d-flex flex-row align-items-center">
-              <Image src={Benz} width="25px" />
+              <Image src={Benz} width="40px" />
               <p className="text-white my-2 ms-3">
                 Introducing Genuiner PartProtection for Mercedes-Benz
               </p>
@@ -26,7 +26,14 @@ const home = () => {
               policy holders avoid unexpected, costly repairs on their new or
               pre-owned vehicle.
             </p>
-            <Button variant="dark" className="learnmore-btn" size="lg">
+            <Button
+              variant="dark"
+              className="learnmore-btn"
+              size="lg"
+              onClick={() => {
+                window.open("/learnmore", "_self");
+              }}
+            >
               Learn More
             </Button>
           </div>
