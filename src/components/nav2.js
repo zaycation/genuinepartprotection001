@@ -6,9 +6,14 @@ import Logo from "../images/gpp-logo.png";
 
 import "./nav.css";
 
-const BootstrapNav = () => {
+const BootstrapNav2 = () => {
   return (
-    <Navbar variant="dark" expand="md" fixed="top" className="nav-container">
+    <Navbar
+      bg="dark"
+      variant="dark"
+      expand="md"
+      fixed="top"
+    >
       <Container>
         <Navbar.Brand href="/" className="">
           <Image src={Logo} rounded width="180px" />
@@ -40,4 +45,4 @@ const BootstrapNav = () => {
   );
 };
 
-export default BootstrapNav;
+export default BootstrapNav2;

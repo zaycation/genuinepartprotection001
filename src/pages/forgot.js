@@ -9,6 +9,8 @@ import "./login.css";
 
 const forgot = () => {
   return (
+    <>
+      <Nav />
       <Container fluid className="login-bg">
         <Row>
           <Col className="d-flex align-items-center justify-content-center">
@@ -28,6 +30,8 @@ const forgot = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
+    </>
   );
 };
 

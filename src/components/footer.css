@@ -6,7 +6,7 @@
 
   /* #E2E8ED */
   /* #84909B */
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
   color: #84909b;
 
   font: Source Sans Pro;
@@ -14,4 +14,8 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 50px;
+}
+
+.gray-clr {
+  color: #c8c8c8 !important;
 }

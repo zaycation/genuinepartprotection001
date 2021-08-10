@@ -1,0 +1,98 @@
+.enrollment-bg {
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(150deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05)),
+      url(../../images/car3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  
+  .step-1-txt {
+    font: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .step-1-box,
+  .step-2-box {
+    width: 50px;
+    height: 50px;
+    color: #fff !important;
+    /* #171717 */
+    background: #171717;
+    border-radius: 10px;
+  }
+  
+  .step-3-box {
+    width: 50px;
+    height: 50px;
+    color: black;
+    background: #e2e8ed;
+    border-radius: 10px;
+  }
+  
+  .header-txt {
+    font: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+  .results-box {
+    width: 100%;
+    min-height: 340px;
+    /* #F7F9FB */
+  
+    background: #f7f9fb;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .left-result {
+    font: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  
+    /* #71777C */
+  
+    color: #71777c;
+  }
+  
+  .right-result {
+    font: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: right;
+  
+    color: #000000;
+  }
+  
+  .result-container {
+    border-bottom: 2px solid #c3c8cd;
+  }
+  
+  .next-btn {
+    background: #171717;
+    border-radius: 4px;
+    border-color: #171717;
+    color: white;
+    width: 300px;
+    height: 60px;
+    font: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 30px;
+  }
+  
