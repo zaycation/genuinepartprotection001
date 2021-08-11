@@ -2,8 +2,8 @@ import React from "react";
 //import { FaRegFilePdf } from "react-icons/fa";
 import { Container, Row, Col, Form } from "react-bootstrap";
 
-import Nav from "../components/nav";
-import Footer from "../components/footer";
+import Nav from "../components/nav2";
+import Footer from "../components/footer2";
 
 import "./login.css";
 import "./policy.css";
@@ -14,13 +14,15 @@ const policy = () => {
       <Nav />
       <Container fluid className="policy-bg">
         <Row>
-          <Col>
-            <div className="text-center policy-header">
-              <h2 className="mt-4">Policy Lookup</h2>
-              <p>Please fill out the form below to find contract(s)</p>
-            </div>
+          <Col className="my-5 text-center text-white">
+            <h1 className="mt-5">Policy Lookup</h1>
+            <p className="mt-4">
+              Please fill out the form below to find contract(s)
+            </p>
           </Col>
         </Row>
+      </Container>
+      <Container fluid className="">
         <Row>
           <Col className="d-flex align-items-center justify-content-center">
             <div className="policy-box text-center">

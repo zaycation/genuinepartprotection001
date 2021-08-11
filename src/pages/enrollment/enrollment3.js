@@ -43,7 +43,48 @@ const enrollment3 = () => {
             <h5 className="header-txt my-4 text-center">
               Registration Information
             </h5>
-            <Form></Form>
+            <Form>
+              <Row>
+                <Col>
+                  <Form.Select
+                    className="mb-3"
+                    aria-label="Default select example"
+                  >
+                    <option>Select Preference</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </Form.Select>{" "}
+                </Col>
+                <Col>
+                  <Form.Control placeholder="First name" />
+                </Col>
+                <Col>
+                  <Form.Control placeholder="Last name" />
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Form.Control placeholder="Phone*" />
+                </Col>
+                <Col>
+                  <Form.Control placeholder="Email*" />
+                </Col>
+                <Col>
+                  <Form.Control placeholder="Username" />
+                </Col>
+              </Row>
+        <Row className="mx-5">
+                <Col>
+                  <Form.Group className="my-3" id="formGridCheckbox">
+                    <Form.Check
+                      type="checkbox"
+                      label="I hereby certify that I am authorized to enroll in the Genuine PartProtection program, including authorizing DMS integration, paying all applicable program fees, and agreeing to the Terms and Conditions for use of this site."
+                    />
+                  </Form.Group>
+                </Col>
+              </Row>
+            </Form>
           </Col>
         </Row>
         <Row className="mx-5">
@@ -62,11 +103,6 @@ const enrollment3 = () => {
             <Button variant="dark" type="submit" size="lg" className="next-btn">
               Enroll Now
             </Button>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Form></Form>
           </Col>
         </Row>
       </Container>

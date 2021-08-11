@@ -8,6 +8,7 @@ import Contact from "./pages/contact";
 import Enroll1 from "./pages/enrollment/enrollment1";
 import Enroll2 from "./pages/enrollment/enrollment2";
 import Enroll3 from "./pages/enrollment/enrollment3";
+import Policy from "./pages/policy";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/enroll1" component={Enroll1} />
         <Route exact path="/enroll2" component={Enroll2} />
         <Route exact path="/enroll3" component={Enroll3} />
+        <Route exact path="/policy" component={Policy} />
       </Switch>
     </Router>
   );

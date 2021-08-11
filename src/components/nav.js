@@ -16,7 +16,7 @@ const BootstrapNav = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w-100 d-flex justify-content-end">
-            <Nav.Link href="/policy-lookup">Policy Lookup</Nav.Link>
+            <Nav.Link href="/policy">Policy Lookup</Nav.Link>
             <Nav.Link href="/enroll1">Enroll Dealership</Nav.Link>
             <Nav.Link href="/contact">Contact Us</Nav.Link>
             <Nav.Link
